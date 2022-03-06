@@ -1,1 +1,10 @@
-
+programa "exercício24"
+	var
+		RS, US, ENG, GRM: real
+inicio
+	leia (RS)
+		US <- RS/1.8
+		ENG <- RS/3.57
+		GRM <- RS/2
+	escreva ("Total de reais: ", RS, ". Total de dólares: ", US, ". Total de marcos alemães: ", GRM, ". Total de libras esterlinas: ", ENG, ".")
+fim
