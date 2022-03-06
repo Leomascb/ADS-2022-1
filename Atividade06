@@ -1,0 +1,9 @@
+programa "exercício06"
+	var
+		SI, VENDA, COM, SF: real
+início
+	leia (SI, VENDA)
+		COM <- VENDA*0.04
+		SF <- SI + COM
+	escreva ("A comissão do funcionário é de: ", COM, " e seu salário final é de: ", SF)
+fim
